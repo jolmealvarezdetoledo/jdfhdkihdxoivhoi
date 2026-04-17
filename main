@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ublot</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background: linear-gradient(180deg, #0a0f2c, #091f3d);
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #e0e6f0;
+    }
+
+    header {
+      padding: 80px 20px 40px;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: #19d1c8;
+      text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    h2.subtitulo {
+      font-size: 2rem;
+      color: #f2cf0c;
+      margin-top: 10px;
+      font-weight: normal;
+    }
+
+    .marquee {
+      background-color: #182848;
+      color: #f2cf0c;
+      font-size: 1.5rem;
+      font-weight: 600;
+      padding: 15px 0;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+      animation: scroll 15s linear infinite;
+    }
+
+    @keyframes scroll {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    section.info {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 40px;
+      margin: 60px auto;
+      width: 85%;
+      max-width: 900px;
+      text-align: left;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .info h2 {
+      font-size: 2rem;
+      color: #19d1c8;
+      text-decoration: underline;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .info p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: justify;
+      color: #e8ebf0;
+    }
+        .info p2 {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      text-align: justify;
+      color: #e8ebf0;
+    }
+
+    footer {
+      margin: 40px 0;
+      font-size: 0.9rem;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>no compartais esta pagina</h1>
+   
+  </header>
+
+
+
+  <section class="info">
+    <h2>yay</h2>
+    <p>
+    aprende a programar:)
+    </p>
+    <p2>link</p2>
+[
+  {
+    "title": "Velocity Rush",
+    "embed": "https://cloud.onlinegames.io/games/2026/unity/velocity-rush/game.html",
+    "image": "https://www.onlinegames.io/media/posts/1265/responsive/velocity-rush-xs.webp",
+    "tags": "1-player,3d,arcade,avoid,ball,crazy,free,fun,parkour,physics,running,skill,speed,unity",
+    "description": "Velocity Rush is a fast-paced arcade game where you control a golf ball through challenging obstacle courses.  There are many obstacles and traps to overcome in order to reach the finish line.  Use your quick reflexes and get past every kind of challenge you encounter.  Keep in mind that skills and agility are crucial for playing this arcade game without dropping the ball!"
+  },
+  {
+    "title": "Snaker io",
+    "embed": "https://cloud.onlinegames.io/games/2026/more/snaker-io/game.html",
+    "image": "https://www.onlinegames.io/media/posts/1261/responsive/snaker-io-xs.webp",
+    "tags": "2d,arcade,arena,avoid,battle-royale,endless,free,fun,html5,io-games,kids,mobile,mouse,multiplayer,snake",
+    "description": "Snaker io is a multiplayer snake game in which you guide your little snake on an arena full of neon food pellets.  To grow the snake, collect as many pellets as you can while trying to survive in the arena with many other snakes.  Avoid crashing into others or eating your own tail to live longer in this snake classic arcade game! \n\n\nControls\n\nMouse: Control the Snake\nSpacebar/Left-Shift/LMB: Speed Up\nAlternatively, you can use the WASD keys or the Arrow keys to steer."
+  },
+  {
+    "title": "Stack Fire Ball",
+    "embed": "https://www.onlinegames.io/games/2021/unity/stack-fire-ball/index.html",
+    "image": "https://www.onlinegames.io/media/posts/184/responsive/Stack-Fire-Ball-Game-xs.jpg",
+    "tags": "1-player,3d,arcade,avoid,ball,color,crazy,destroy,free,mobile,mouse,skill",
+    "description": "Reach the end by guiding the ball through each stage, avoiding the dark tiles. This game is a combination between relaxation but also keeping attention to details. With modern graphics, you will enjoy knocking down the colorful tiles as fast as you can. Â Let the ball bounce and complete all the stages."
+  },
+  {
+    "title": "Love Tester",
+    "embed": "https://www.onlinegames.io/games/2021/3/love-tester/index.html",
+    "image": "https://www.onlinegames.io/media/posts/152/responsive/love-tester-xs.jpg",
+    "tags": "1-player,2d,free,fun,funny,girl,html5,kids,love,mobile",
+    "description": "Do you want to know how much your crush falls for you?  Here is a way to test the love of the one and only.  Love Tester is an online game where you fill out your and your crush's names.  Then, let the tester do all the calculations about how much they love you, miss you during the day, or have any second thoughts about you."
+  },
+  {
+    "title": "GTA Simulator",
+    "embed": "https://www.onlinegames.io/games/2023/unity2/gta-simulator/index.html",
+    "image": "https://www.onlinegames.io/media/posts/416/responsive/GTA-Simulator-xs.jpg",
+    "tags": "1-player,3d,action,car,driving,free,gta,shooting,simulator,traffic,unity",
+    "description": "You know that famous GTA video game series, right?  Well, meet its online and free version on OnlineGames. io.  GTA Simulator is a simulator game that you can play on your web browser without the need to download."
+  },
+  {
+    "title": "CS Online",
+    "embed": "https://www.onlinegames.io/games/2023/unity2/cs-online/index.html",
+    "image": "https://www.onlinegames.io/media/posts/434/responsive/CS-Online-xs.jpg",
+    "tags": "3d,action,battle,battle-royale,first-person-shooter,free,gun,multiplayer,shooting,unity,war,weapon",
+    "description": "Everyone knows the famous Counter Strike game, 2000's online battle arena with online players.  CS Online, inspired by Counter-Strike,Â is a multiplayer shooting game where terrorists and counter-terrorists combat and kill each other with multiple weapon options.  It is the online and free version of the original game, and you can access the CS Online on your web browser without downloading or purchasing anything.  All you need to do is join an available room and start to play!"
+  },
+  {
+    "title": "Masked Special Forces",
+    "embed": "https://www.onlinegames.io/games/2022/unity2/masked-special-forces/index.html",
+    "image": "https://www.onlinegames.io/media/posts/310/responsive/Masked-Special-Forces-FPS-xs.jpg",
+    "tags": "3d,action,armor,battle-royale,first-person-shooter,free,gun,io-games,multiplayer,shooting,war,weapon",
+    "description": "Masked Special Forces is a multiplayer first-person shooter game with a myriad of customization options.  The game puts you in the shoes of a commander in the battle arena.  As a talented warrior, team up, strategize, and take down the opponents one by one. Â \nAccess to an array of upgradable weapons, armory, kill messages, and victory dances on the main menu."
+  },
+  {
+    "title": "Real Flight Simulator",
+    "embed": "https://cloud.onlinegames.io/games/2023/unity2/real-flight-simulator/index.html",
+    "image": "https://www.onlinegames.io/media/posts/342/responsive/Real-Flight-Simulator-2-xs.jpg",
+    "tags": "1-player,3d,airplane,flying,free,simulator,unity",
+    "description": "Real Flight Simulator is a realistic game that gives you the ultimate flight experience. There is the possibility to choose the aircraft you want and start to control the plane. You will become an expert in controlling the planes, reaching the heights and exploring skies. You will be able to test the following aircrafts:â€¢ A-10â€¢ A-29â€¢ F-35â€¢ KC-10Â â€¢ M-262Follow the instructions to make the aircraft fly:1."
+  },
+  {
+    "title": "Dublix",
+    "embed": "https://cloud.onlinegames.io/games/2025/unity4/dublix/game-og.html",
+    "image": "https://www.onlinegames.io/media/posts/1126/responsive/dublix-xs.webp",
+    "tags": "3d,adventure,crazy,free,fun,kart,multiplayer,music,parkour,racing,roblox,unity",
+    "description": "Dublix is an online multiplayer game with its exciting Roblox-inspired World!  Wander in the maze to find the exit, take your part in the parkour and drive a car in the race-track to earn coins.  The best way to end the night is to dance freely at the music festival. \nControls\n\nWASD or Arrow Keys: Move\nSpacebar: Jump\nLeft-Shift: Run\nE Key: Interact\n\nHow to Play Dublix\nWell, Dublix offers its players a free Roblox-inspired world."
+  },
+  {
+    "title": "Stickman GTA City",
+    "embed": "https://cloud.onlinegames.io/games/2024/unity3/stickman-gta-city/index-og.html",
+    "image": "https://www.onlinegames.io/media/posts/900/responsive/stickman-gta-city-free-xs.jpg",
+    "tags": "1-player,3d,action,adventure,battle,car,driving,free,gta,gun,shooting,simulator,traffic,unity,weapon",
+    "description": "You've been digging the internet for ages, looking for a free GTA game to play on your browser, only to end up with games that disappoint faster than a balloon losing air.  You might have given up hope, reminiscing about the days of cruising through GTA San Andreas or Vice City with your bro.  Think of how much you missed even hearing that iconic sound, the one that plays right as the screen fades to black with a bold \"Wasted! \" slapped across it?"
+  },
+  {
+    "title": "Stickman Parkour",
+    "embed": "https://cloud.onlinegames.io/games/2024/construct/219/stickman-parkour/index-og.html",
+    "image": "https://www.onlinegames.io/media/posts/871/responsive/stickman-parkour-OG-xs.jpg",
+    "tags": "1-player,2d,action,adventure,arcade,free,fun,mobile,parkour,physics,running,stickman",
+    "description": "Stickman Parkour is an online platformer game that you can play on your browser, embracing the easy-to-learn but hard-to-master mechanics.  Collect keys, open chests, pass levels and help him find his way out across 30 levels. \nWhat is Stickman Parkour about? \nImagine Stickman, a tiny stick figure who decides one day to go on this epic adventure."
+  },
+  {
+    "title": "Madalin Stunt Cars Pro",
+    "embed": "https://www.onlinegames.io/games/2023/unity/madalin-stunt-cars-pro/index.html",
+    "image": "https://www.onlinegames.io/media/posts/401/responsive/Madalin-Stunt-Cars-Pro-Game-xs.jpg",
+    "tags": "3d,car,crazy,drift,driving,free,multiplayer,speed,stunt,unity",
+    "description": "Are you open to experiencing luxury?  The 3D driving game Madalin Stunt Cars Pro features excellent graphics for lifelike experiences.  You can choose from various vehicles in Madalin Stunt Cars Pro, from the most opulent sports cars to a police cruiser, in three distinct map areas. \nHow to play Madalin Stunt Cars Pro?"
+  },
+  {
+    "title": "Geometry Vector",
+    "embed": "https://cloud.onlinegames.io/games/2026/construct/329/geometry-vector/game.html",
+    "image": "https://www.onlinegames.io/media/posts/1246/responsive/geometry-vector-xs.webp",
+    "tags": "1-player,2d,arcade,avoid,clicker,color,crazy,free,html5,mouse,music,physics,skill",
+    "description": "Geometry Vector is an online arcade game where you guide an arrow icon through challenging obstacle courses.  You need to avoid getting in contact with spikes and traps to reach the portal at the end of each level.  Follow the rhythm, dodge obstacles, and reach the finish point by taking control of your arrow.  Collect the coins on the way to unlock new arrow designs!"
+  },
+  {
+    "title": "Guerrillas io",
+    "embed": "https://www.onlinegames.io/games/2023/unity2/guerrillas-io/index.html",
+    "image": "https://www.onlinegames.io/media/posts/423/responsive/Guerillas-io-xs.jpg",
+    "tags": "3d,action,army,battle-royale,first-person-shooter,free,io-games,shooting",
+    "description": "You are a particular elite team member and are called into battle.  Your weapons are ready, and your equipment is prepared.  All your team needs is you.  Guerrillas io is a multiplayer battling game that you can play online."
+  },
+  {
+    "title": "Checkout Frenzy",
+    "embed": "https://cloud.onlinegames.io/games/2025/unity/checkout-frenzy/index-og.html",
+    "image": "https://www.onlinegames.io/media/posts/974/responsive/checkout-frenzy-cashier-game-xs.jpg",
+    "tags": "1-player,3d,free,organizing,simulator,tycoon,unity",
+    "description": "Have you ever stood in line at a store and wondered, â€œWhat exactly are the cashiers doing on that screen? â€ All those bippity boppity beeps and flashing buttons...  What do they even mean?  Okay, we'll solve that mystery."
+  },
+  {
+    "title": "Edys Car Simulator",
+    "embed": "https://www.onlinegames.io/games/2022/unity/edys-car-simulator/index.html",
+    "image": "https://www.onlinegames.io/media/posts/238/responsive/Edys-Car-Simulator-Online-xs.jpg",
+    "tags": "1-player,3d,car,crash,driving,free,racing,simulator,speed,stunt",
+    "description": "Do you fancy doing some sightseeing?  Edy's Car Simulator is a game where you can freely wander the streets!  The city is all yours.  You are free to use the whole city however you want."
+  },
+  {
+    "title": "Jungle Mart",
+    "embed": "https://cloud.onlinegames.io/games/2026/construct/339/jungle-mart/game.html",
+    "image": "https://www.onlinegames.io/media/posts/1247/responsive/jungle-mart-xs.webp",
+    "tags": "1-player,2d,animal,cozy,cute,farming,free,fun,html5,idle,kids,mobile,mouse,organizing,simulator,tycoon",
+    "description": "Jungle Mart is an online simulator game where you play in the shoes of a cute farmer monkey!  This monkey has a farm planted with banana trees, and sells the bananas to his customers when they ripen.  Help him expand his business by managing farm work effectively.  Unlock new fields on the farm as you progress to maximize the profits!
+  
+</body>
+</html>
