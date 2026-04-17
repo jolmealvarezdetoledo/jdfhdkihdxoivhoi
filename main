@@ -10,7 +10,7 @@
       margin: 0;
       padding: 0;
       text-align: center;
-      background: linear-gradient(180deg, #0a0f2c, #091f3d);
+      background: linear-gradient(180deg, #0a0f2c, #091f3d);   
       font-family: "Segoe UI", Arial, sans-serif;
       color: #e0e6f0;
     }
